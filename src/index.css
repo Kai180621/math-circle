@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  padding: 100px;
+}
+
+.board-size {
+  margin-bottom: 30px;
+  margin-left: 6px;
+}
+
+.board {
+  position: relative;
+}
+
+.dot {
+  border: none;
+  outline: none;
+  background: transparent; 
+  color: gray;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.dot-mark {
+  margin-y: 1px;
+}
+
+.gray {
+  color: gray;
+}
+
+.dark {
+  color: black;
+  font-weight: bold;
+}
+
+.calculate {
+  margin-top: 30px;
+  margin-left: 6px;
+}
+
+.circle { 
+  position: absolute;
+  border: 1px solid black;
+  top: 0;
+}
